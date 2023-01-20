@@ -1,5 +1,5 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import "./login.css"
 
 const Login = () => {
@@ -53,7 +53,10 @@ const Login = () => {
                         </select>
                         <br />
                         <br />
+                        <Link to="/dashboard">
+
                         <button className='btn' onClick={handleLogin}>Sign in</button>
+                        </Link>
                     </form>
                 </div>
             </div>
