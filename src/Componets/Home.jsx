@@ -174,7 +174,7 @@ export const Home = () => {
             <span><h3>54</h3></span>
          </p>
          <p>EMR Finalised
-         <span><h3>49</h3></span>
+         <span><h3>59</h3></span>
          </p>
          <p>Patient Registratins
          <span><h3>120</h3></span>
