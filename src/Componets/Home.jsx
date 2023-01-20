@@ -7,6 +7,7 @@ import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 import { Button, Popover } from '@mui/material';
 import Avatar from '@mui/material/Avatar';
 import NewspaperIcon from '@mui/icons-material/Newspaper';
+import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 
 import { Link } from 'react-router-dom';
 
@@ -72,7 +73,7 @@ export const Home = () => {
 
     return (
         <>
-        <div style={{backgroundColor:"#203765", height:"100px"}}>
+        <div style={{backgroundColor:"#203765", height:"200px"}}>
 
         <h1 style={{marginLeft:"100px" ,color:"white"}}> welcome  Anil Kumar</h1>
         </div>
@@ -144,10 +145,47 @@ export const Home = () => {
            
 
         </div>
-        <div style={{width:"60%",margin:"auto"}}>
-                 
-        </div>
+        <div style={{ display:"flex", justifyContent:"space-around", width:"60%",margin:"auto" ,boxShadow:"rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset",marginTop:"-30px",backgroundColor:"white"}}>
+          <h1>
+          <InsertDriveFileIcon color='primary'/>
+          <span>total Earnings</span>   
+            <p>₹4500</p> 
+            </h1> 
+            
+            <select placeholder='select unit Name' style={{height:"50px" ,marginTop:"30px" }}>
 
+<option value="prk">Unit</option>
+<option value="prk">prk Hospital</option>
+
+<option value="rkp">prk Hospital</option>
+<option value="krp">prk Hospital</option>
+</select>
+<select placeholder='select unit Name' style={{height:"50px" ,marginTop:"30px" }} >
+
+<option value="prk">Time duration</option>
+<option value="prk">prk Hospital</option>
+
+<option value="rkp">prk Hospital</option>
+<option value="krp">prk Hospital</option>
+</select>
+        </div>
+        <div style={{ display:"flex", justifyContent:"space-around", width:"60%",margin:"auto" ,boxShadow:"rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset",marginTop:"-30px",backgroundColor:"#F0F6FE"}}>
+         <p>Appoinments
+            <span><h3>54</h3></span>
+         </p>
+         <p>EMR Finalised
+         <span><h3>49</h3></span>
+         </p>
+         <p>Patient Registratins
+         <span><h3>120</h3></span>
+         </p>
+         <p>KR4ALL
+         <span><h3>30</h3></span>
+         </p>
+         <br />
+       
+       
+        </div>
                 </>
     )
 }
