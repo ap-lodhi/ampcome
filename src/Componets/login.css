@@ -35,14 +35,14 @@
     /* border: 1px  solid orange; */
     width: 80%;
     margin: auto;
-    
+    margin-top: 150px;
     
 }
 
 .login-left div >img{
    
     width: 80%;
-   
+    margin-left: 40px;
 }
 
 
@@ -51,7 +51,7 @@
     /* border: solid; */
     width: 50%;
 margin: auto;
-
+margin-top: 150px;
   
 }
 
@@ -60,7 +60,9 @@ margin: auto;
 .login-right h1{
     font-family: 'Inter';
     font-style: normal;
-   
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 125%;
     /* identical to box height, or 28px */
     
     
